@@ -2,4 +2,5 @@
 /shelf/
 /workspace.xml
 /CarComponent Example/
-/MVC_Examples/
+/MVC_Examples
+*iml
