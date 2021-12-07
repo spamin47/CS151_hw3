@@ -139,8 +139,12 @@ public class View extends JFrame {
         System.out.println("blueHeight updated to " + newValue);
         blueBar.setHeight(newValue);
     }
+    //set bar height to 0. Reset values.
     public ActionListener reset(){
         return e ->{
+            redTextArea.setText("");
+            blueTextArea.setText("");
+            greenTextArea.setText("");
             redBar.setHeight(0);
             greenBar.setHeight(0);
             blueBar.setHeight(0);
